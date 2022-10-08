@@ -1,0 +1,96 @@
+
+body {
+    margin: 10px;
+    background: linear-gradient(rgb(15, 12, 12), blue);
+    background-size: cover;
+}
+
+#bday-title {
+    text-shadow: 0px 0px 5px white;
+    font-size: 50px;
+    color: rgb(18, 36, 51);
+    
+}
+
+@font-face {
+    font-family: frozen;
+    src: url("frozen.ttf");
+}
+
+#header {
+    text-align: center;
+    font-family: frozen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bday-age, #date {
+    border: 1px solid blue;
+    background-color: rgb(0, 0, 107);
+    margin-top: 5px;
+    padding: 5px 10px;
+    
+}
+
+
+.bday-section {
+    text-align: center;
+    font-family: frozen;
+    text-shadow: 0px 0px 3px white;
+    
+}
+
+#bday-pic {
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.gift-img {
+    background-image: url("images/cover.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border: 8px solid rgb(2, 2, 10);
+    border-radius: 8px;
+}
+
+#gift-img-wow:hover {
+    background-image: url("images/excit.gif");
+}
+
+#gift-img-party:hover {
+    background-image: url("images/party.gif");
+}
+
+#gift-img-beauty:hover{
+    background-image: url("images/beauty.gif");
+}
+
+#gift-img-hbday:hover {
+    background-image: url("images/bday.gif");
+    background-size: cover;
+}
+
+.footer {
+   text-align: center;
+   font-size: 150%;
+   font-family: frozen;
+   margin: 0 20px;
+   text-shadow: 0px 0px 2px white;
+   margin: 0 10px;
+   
+   
+}
+
+a {
+    color: black;
+    background-color: brown;
+    text-shadow: 0px 0px 2px white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
